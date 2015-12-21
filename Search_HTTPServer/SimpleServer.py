@@ -34,6 +34,9 @@ if __name__ == "__main__":
     if sys.argv[1] == 'bg':
       run_on_port = 8897
       service_port = 5565
+    elif sys.argv[1] == 'fg':
+      run_on_port = 8898
+      service_port = 5566
     else:
       print 'INVALID options'
 

@@ -13,5 +13,4 @@ GLOG_logtostderr=0 ${CODE_PATH}/computeFeatures.bin \
     -o /memexdata/Dataset/processed/0008_JPLWeapons2/features/CNN/pool5_bg_normed \
     -y \
     -t lmdb \
-    -p avg \
-    -z 651780
+    -p avg
