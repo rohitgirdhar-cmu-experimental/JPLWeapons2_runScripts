@@ -6,7 +6,7 @@ GLOG_logtostderr=1 gdb -ex=r --args ${CODE_PATH}/computeFeatAndSearch.bin \
     -m /srv2/rgirdhar/Work/Datasets/processed/0014_CNNData/001_AlexNet/bvlc_reference_caffenet.caffemodel \
     -l pool5 \
     -i /memexdata/Dataset/processed/0008_JPLWeapons2/Search/indexes/bgImg_ITQ_256bit.index \
-    -s /memexdata/Dataset/processed/0008_JPLWeapons2/features/CNN/pool5_bg_normed.bak \
+    -s /memexdata/Dataset/processed/0008_JPLWeapons2/features/CNN/pool5_bg_normed \
     --imgslist /memexdata/Dataset/processed/0008_JPLWeapons2/lists/Images.txt \
     --seg-img /srv2/rgirdhar/Work/Code/0005_ObjSegment/scripts/seg_service_scripts_2/temp-dir/result.jpg \
     --nPathParts -1 \
